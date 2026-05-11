@@ -8,7 +8,7 @@ public enum Nacionalidad {
     Nacionalidad(int id) { this.id = id; }
     public int getId() { return id; }
 
-    public static Nacionalidad getById(int id) {
+    public static Nacionalidad getById(int id) { //si anda fue hecho por MAFIU, sino fue hecho por LUCAS DARÍO BRITO RECUERO DE CEDULA 53827324
         switch (id) {
             case 1:
                 return NACIONAL;

@@ -4,8 +4,8 @@ import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.event.Observes;
 import jakarta.inject.Inject;
 import org.jboss.logging.Logger;
-import org.tallerjava.moduloGestion.interfase.evento.out.GestionPagoCuentaPostPaga;
-import org.tallerjava.moduloGestion.interfase.evento.out.GestionPagoCuentaPrePaga;
+import org.tallerjava.moduloClientes.interfase.evento.out.GestionPagoCuentaPostPaga;
+import org.tallerjava.moduloClientes.interfase.evento.out.GestionPagoCuentaPrePaga;
 import org.tallerjava.moduloCargas.infraestructura.RegistradorDeMetricas;
 
 /**

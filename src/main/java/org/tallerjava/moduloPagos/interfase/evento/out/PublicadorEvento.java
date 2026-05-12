@@ -1,4 +1,4 @@
-package org.tallerjava.moduloPeaje.interfase.evento.out;
+package org.tallerjava.moduloPagos.interfase.evento.out;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.event.Event;

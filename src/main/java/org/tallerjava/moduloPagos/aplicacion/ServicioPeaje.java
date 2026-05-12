@@ -1,6 +1,6 @@
-package org.tallerjava.moduloPeaje.aplicacion;
+package org.tallerjava.moduloPagos.aplicacion;
 
-import org.tallerjava.moduloPeaje.dominio.Vehiculo;
+import org.tallerjava.moduloPagos.dominio.Vehiculo;
 
 public interface ServicioPeaje {
     public boolean estaHabilitadoSincronico(int tag, String matricula);

@@ -1,17 +1,17 @@
-package org.tallerjava.moduloPeaje.interfase.evento.in;
+package org.tallerjava.moduloPagos.interfase.evento.in;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.event.Observes;
 import jakarta.inject.Inject;
 import org.jboss.logging.Logger;
-import org.tallerjava.moduloGestion.interfase.evento.out.GestionNuevoVehiculo;
-import org.tallerjava.moduloGestion.interfase.evento.out.GestionPagoCuentaPostPaga;
-import org.tallerjava.moduloGestion.interfase.evento.out.GestionPagoCuentaPrePaga;
-import org.tallerjava.moduloMonitoreo.infraestructura.RegistradorDeMetricas;
-import org.tallerjava.moduloPeaje.aplicacion.ServicioPeaje;
-import org.tallerjava.moduloPeaje.dominio.Identificador;
-import org.tallerjava.moduloPeaje.dominio.Nacionalidad;
-import org.tallerjava.moduloPeaje.dominio.Vehiculo;
+import org.tallerjava.moduloClientes.interfase.evento.out.GestionNuevoVehiculo;
+import org.tallerjava.moduloClientes.interfase.evento.out.GestionPagoCuentaPostPaga;
+import org.tallerjava.moduloClientes.interfase.evento.out.GestionPagoCuentaPrePaga;
+import org.tallerjava.moduloCargas.infraestructura.RegistradorDeMetricas;
+import org.tallerjava.moduloPagos.aplicacion.ServicioPeaje;
+import org.tallerjava.moduloPagos.dominio.Identificador;
+import org.tallerjava.moduloPagos.dominio.Nacionalidad;
+import org.tallerjava.moduloPagos.dominio.Vehiculo;
 
 @ApplicationScoped
 public class ObserverModuloPeaje {

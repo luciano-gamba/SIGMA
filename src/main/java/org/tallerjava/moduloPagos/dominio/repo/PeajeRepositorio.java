@@ -1,8 +1,8 @@
-package org.tallerjava.moduloPeaje.dominio.repo;
+package org.tallerjava.moduloPagos.dominio.repo;
 
-import org.tallerjava.moduloPeaje.dominio.Comun;
-import org.tallerjava.moduloPeaje.dominio.Preferencial;
-import org.tallerjava.moduloPeaje.dominio.Vehiculo;
+import org.tallerjava.moduloPagos.dominio.Comun;
+import org.tallerjava.moduloPagos.dominio.Preferencial;
+import org.tallerjava.moduloPagos.dominio.Vehiculo;
 
 /**
  * Eventualmente, si esta clase crece mucho, puedo tener más de un repositorio

@@ -1,4 +1,4 @@
-package org.tallerjava.moduloGestion.interfase.remota.rest;
+package org.tallerjava.moduloClientes.interfase.remota.rest;
 
 import lombok.Data;
 

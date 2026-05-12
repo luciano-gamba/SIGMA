@@ -1,8 +1,8 @@
-package org.tallerjava.moduloPeaje.dominio.repo;
+package org.tallerjava.moduloPagos.dominio.repo;
 
 import jakarta.persistence.AttributeConverter;
 import jakarta.persistence.Converter;
-import org.tallerjava.moduloPeaje.dominio.Nacionalidad;
+import org.tallerjava.moduloPagos.dominio.Nacionalidad;
 
 //la manera correcta de manejar enums con jpa
 @Converter(autoApply = true)

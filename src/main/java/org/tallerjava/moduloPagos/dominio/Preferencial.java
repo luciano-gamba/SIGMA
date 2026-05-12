@@ -1,4 +1,4 @@
-package org.tallerjava.moduloPeaje.dominio;
+package org.tallerjava.moduloPagos.dominio;
 
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;

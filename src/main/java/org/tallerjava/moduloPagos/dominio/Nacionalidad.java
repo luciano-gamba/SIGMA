@@ -1,4 +1,4 @@
-package org.tallerjava.moduloPeaje.dominio;
+package org.tallerjava.moduloPagos.dominio;
 
 public enum Nacionalidad {
     NACIONAL(1),

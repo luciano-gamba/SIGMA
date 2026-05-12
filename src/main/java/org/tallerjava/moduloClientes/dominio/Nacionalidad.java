@@ -1,4 +1,4 @@
-package org.tallerjava.moduloGestion.dominio;
+package org.tallerjava.moduloClientes.dominio;
 
 public enum Nacionalidad {
     NACIONAL(1),

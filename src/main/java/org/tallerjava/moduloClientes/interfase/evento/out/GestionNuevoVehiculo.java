@@ -1,4 +1,4 @@
-package org.tallerjava.moduloGestion.interfase.evento.out;
+package org.tallerjava.moduloClientes.interfase.evento.out;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

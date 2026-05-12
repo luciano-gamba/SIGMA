@@ -1,4 +1,4 @@
-package org.tallerjava.moduloMonitoreo.infraestructura;
+package org.tallerjava.moduloCargas.infraestructura;
 
 import io.micrometer.core.instrument.Clock;
 import io.micrometer.core.instrument.MeterRegistry;

@@ -1,16 +1,16 @@
-package org.tallerjava.moduloGestion.aplicacion.impl;
+package org.tallerjava.moduloClientes.aplicacion.impl;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import org.jboss.logging.Logger;
-import org.tallerjava.moduloGestion.aplicacion.ServicioGestion;
-import org.tallerjava.moduloGestion.dominio.PrePaga;
-import org.tallerjava.moduloGestion.dominio.Vehiculo;
-import org.tallerjava.moduloGestion.dominio.usuario.ClienteTelepeaje;
-import org.tallerjava.moduloGestion.dominio.usuario.Usuario;
-import org.tallerjava.moduloGestion.dominio.repo.UsuarioRepositorio;
-import org.tallerjava.moduloGestion.interfase.evento.out.PublicadorEventoGestion;
+import org.tallerjava.moduloClientes.aplicacion.ServicioGestion;
+import org.tallerjava.moduloClientes.dominio.PrePaga;
+import org.tallerjava.moduloClientes.dominio.Vehiculo;
+import org.tallerjava.moduloClientes.dominio.usuario.ClienteTelepeaje;
+import org.tallerjava.moduloClientes.dominio.usuario.Usuario;
+import org.tallerjava.moduloClientes.dominio.repo.UsuarioRepositorio;
+import org.tallerjava.moduloClientes.interfase.evento.out.PublicadorEventoGestion;
 
 import java.time.LocalDateTime;
 

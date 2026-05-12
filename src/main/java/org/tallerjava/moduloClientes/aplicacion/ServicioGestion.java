@@ -1,7 +1,7 @@
-package org.tallerjava.moduloGestion.aplicacion;
+package org.tallerjava.moduloClientes.aplicacion;
 
-import org.tallerjava.moduloGestion.dominio.Vehiculo;
-import org.tallerjava.moduloGestion.dominio.usuario.Usuario;
+import org.tallerjava.moduloClientes.dominio.Vehiculo;
+import org.tallerjava.moduloClientes.dominio.usuario.Usuario;
 
 public interface ServicioGestion {
     public boolean realizarPrePago(int tag, double importe);

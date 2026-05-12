@@ -1,10 +1,10 @@
-package org.tallerjava.moduloPeaje.aplicacion.impl;
+package org.tallerjava.moduloPagos.aplicacion.impl;
 
 import org.jboss.weld.junit5.EnableWeld;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.tallerjava.moduloGestion.interfase.local.ServicioPagoFacade;
+import org.tallerjava.moduloClientes.interfase.local.ServicioPagoFacade;
 
 /**
  * Observese que puedo extender test unitarios para poder reutilizar código
@@ -12,7 +12,7 @@ import org.tallerjava.moduloGestion.interfase.local.ServicioPagoFacade;
  * que postPago de Error.
  */
 @EnableWeld
-class VerificoTagExtranjeroConPostPagoError extends VerificoTagExtranjeroConPostPagoOk{
+class VerificoTagExtranjeroConPostPagoError extends org.tallerjava.moduloPagos.aplicacion.impl.VerificoTagExtranjeroConPostPagoOk {
 
 
     @Override

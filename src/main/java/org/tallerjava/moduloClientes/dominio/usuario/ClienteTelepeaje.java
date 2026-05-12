@@ -1,11 +1,11 @@
-package org.tallerjava.moduloGestion.dominio.usuario;
+package org.tallerjava.moduloClientes.dominio.usuario;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.tallerjava.moduloGestion.dominio.PostPaga;
-import org.tallerjava.moduloGestion.dominio.PrePaga;
+import org.tallerjava.moduloClientes.dominio.PostPaga;
+import org.tallerjava.moduloClientes.dominio.PrePaga;
 
 @Data
 @AllArgsConstructor

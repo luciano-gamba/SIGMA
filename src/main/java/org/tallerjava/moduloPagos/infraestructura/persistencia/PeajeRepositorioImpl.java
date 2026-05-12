@@ -1,4 +1,4 @@
-package org.tallerjava.moduloPeaje.infraestructura.persistencia;
+package org.tallerjava.moduloPagos.infraestructura.persistencia;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.persistence.EntityManager;
@@ -8,8 +8,8 @@ import jakarta.persistence.TypedQuery;
 import jakarta.persistence.criteria.CriteriaQuery;
 import jakarta.transaction.Transactional;
 import org.jboss.logging.Logger;
-import org.tallerjava.moduloPeaje.dominio.*;
-import org.tallerjava.moduloPeaje.dominio.repo.PeajeRepositorio;
+import org.tallerjava.moduloPagos.dominio.*;
+import org.tallerjava.moduloPagos.dominio.repo.PeajeRepositorio;
 
 import java.time.LocalDateTime;
 import java.util.Date;

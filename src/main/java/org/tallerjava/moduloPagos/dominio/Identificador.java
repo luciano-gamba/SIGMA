@@ -1,4 +1,4 @@
-package org.tallerjava.moduloPeaje.dominio;
+package org.tallerjava.moduloPagos.dominio;
 
 import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;

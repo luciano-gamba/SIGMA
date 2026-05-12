@@ -1,4 +1,4 @@
-package org.tallerjava.moduloMonitoreo.interfase.evento.in;
+package org.tallerjava.moduloCargas.interfase.evento.in;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.event.Observes;
@@ -6,7 +6,7 @@ import jakarta.inject.Inject;
 import org.jboss.logging.Logger;
 import org.tallerjava.moduloGestion.interfase.evento.out.GestionPagoCuentaPostPaga;
 import org.tallerjava.moduloGestion.interfase.evento.out.GestionPagoCuentaPrePaga;
-import org.tallerjava.moduloMonitoreo.infraestructura.RegistradorDeMetricas;
+import org.tallerjava.moduloCargas.infraestructura.RegistradorDeMetricas;
 
 /**
  * Observese que este Modulo si esta acoplado con el módulo de Gestion (ya que conoce sus eventos)

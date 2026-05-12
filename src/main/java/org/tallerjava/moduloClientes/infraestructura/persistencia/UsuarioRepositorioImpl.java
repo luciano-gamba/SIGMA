@@ -1,13 +1,13 @@
-package org.tallerjava.moduloGestion.infraestructura.persistencia;
+package org.tallerjava.moduloClientes.infraestructura.persistencia;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.NoResultException;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.TypedQuery;
-import org.tallerjava.moduloGestion.dominio.Vehiculo;
-import org.tallerjava.moduloGestion.dominio.repo.UsuarioRepositorio;
-import org.tallerjava.moduloGestion.dominio.usuario.Usuario;
+import org.tallerjava.moduloClientes.dominio.Vehiculo;
+import org.tallerjava.moduloClientes.dominio.repo.UsuarioRepositorio;
+import org.tallerjava.moduloClientes.dominio.usuario.Usuario;
 
 @ApplicationScoped
 public class UsuarioRepositorioImpl implements UsuarioRepositorio {

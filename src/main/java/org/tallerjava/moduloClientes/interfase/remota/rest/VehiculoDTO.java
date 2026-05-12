@@ -1,8 +1,8 @@
-package org.tallerjava.moduloGestion.interfase.remota.rest;
+package org.tallerjava.moduloClientes.interfase.remota.rest;
 
 import lombok.Data;
-import org.tallerjava.moduloGestion.dominio.Nacionalidad;
-import org.tallerjava.moduloGestion.dominio.Vehiculo;
+import org.tallerjava.moduloClientes.dominio.Nacionalidad;
+import org.tallerjava.moduloClientes.dominio.Vehiculo;
 
 @Data
 public class VehiculoDTO {

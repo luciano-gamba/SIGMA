@@ -1,4 +1,4 @@
-package org.tallerjava.moduloGestion.interfase.remota.rest;
+package org.tallerjava.moduloClientes.interfase.remota.rest;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
@@ -7,9 +7,9 @@ import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.core.MediaType;
 import org.jboss.logging.Logger;
-import org.tallerjava.moduloGestion.aplicacion.ServicioGestion;
-import org.tallerjava.moduloGestion.dominio.Vehiculo;
-import org.tallerjava.moduloGestion.dominio.usuario.Usuario;
+import org.tallerjava.moduloClientes.aplicacion.ServicioGestion;
+import org.tallerjava.moduloClientes.dominio.Vehiculo;
+import org.tallerjava.moduloClientes.dominio.usuario.Usuario;
 
 @ApplicationScoped
 @Path("/cliente")

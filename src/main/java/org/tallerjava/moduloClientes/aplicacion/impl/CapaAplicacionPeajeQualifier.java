@@ -1,4 +1,4 @@
-package org.tallerjava.moduloGestion.aplicacion.impl;
+package org.tallerjava.moduloClientes.aplicacion.impl;
 
 import jakarta.inject.Qualifier;
 

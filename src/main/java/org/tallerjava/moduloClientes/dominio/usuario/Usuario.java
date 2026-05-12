@@ -1,12 +1,12 @@
-package org.tallerjava.moduloGestion.dominio.usuario;
+package org.tallerjava.moduloClientes.dominio.usuario;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.tallerjava.moduloGestion.dominio.Nacionalidad;
-import org.tallerjava.moduloGestion.dominio.Vehiculo;
+import org.tallerjava.moduloClientes.dominio.Nacionalidad;
+import org.tallerjava.moduloClientes.dominio.Vehiculo;
 
 import java.util.List;
 

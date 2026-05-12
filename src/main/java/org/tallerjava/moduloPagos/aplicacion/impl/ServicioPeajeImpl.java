@@ -1,15 +1,15 @@
-package org.tallerjava.moduloPeaje.aplicacion.impl;
+package org.tallerjava.moduloPagos.aplicacion.impl;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import org.jboss.logging.Logger;
-import org.tallerjava.moduloPeaje.aplicacion.ServicioPeaje;
-import org.tallerjava.moduloPeaje.dominio.Preferencial;
-import org.tallerjava.moduloPeaje.dominio.Vehiculo;
-import org.tallerjava.moduloPeaje.dominio.repo.PeajeRepositorio;
-import org.tallerjava.moduloGestion.interfase.local.ServicioPagoFacade;
-import org.tallerjava.moduloPeaje.interfase.evento.out.PublicadorEvento;
+import org.tallerjava.moduloPagos.aplicacion.ServicioPeaje;
+import org.tallerjava.moduloPagos.dominio.Preferencial;
+import org.tallerjava.moduloPagos.dominio.Vehiculo;
+import org.tallerjava.moduloPagos.dominio.repo.PeajeRepositorio;
+import org.tallerjava.moduloClientes.interfase.local.ServicioPagoFacade;
+import org.tallerjava.moduloPagos.interfase.evento.out.PublicadorEvento;
 
 @ApplicationScoped
 public class ServicioPeajeImpl implements ServicioPeaje {

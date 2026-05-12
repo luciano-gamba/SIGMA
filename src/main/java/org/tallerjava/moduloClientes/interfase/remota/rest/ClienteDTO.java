@@ -1,10 +1,10 @@
-package org.tallerjava.moduloGestion.interfase.remota.rest;
+package org.tallerjava.moduloClientes.interfase.remota.rest;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.tallerjava.moduloGestion.dominio.Nacionalidad;
-import org.tallerjava.moduloGestion.dominio.usuario.Usuario;
+import org.tallerjava.moduloClientes.dominio.Nacionalidad;
+import org.tallerjava.moduloClientes.dominio.usuario.Usuario;
 
 
 @Data

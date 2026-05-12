@@ -1,4 +1,4 @@
-package org.tallerjava.moduloPeaje.interfase.remota.rest;
+package org.tallerjava.moduloPagos.interfase.remota.rest;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
@@ -7,7 +7,7 @@ import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.core.MediaType;
 import org.jboss.logging.Logger;
-import org.tallerjava.moduloPeaje.aplicacion.ServicioPeaje;
+import org.tallerjava.moduloPagos.aplicacion.ServicioPeaje;
 
 
 

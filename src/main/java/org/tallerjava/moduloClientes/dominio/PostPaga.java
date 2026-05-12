@@ -1,4 +1,4 @@
-package org.tallerjava.moduloGestion.dominio;
+package org.tallerjava.moduloClientes.dominio;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -18,6 +18,6 @@ public class PostPaga extends Cuenta {
     @JoinColumn(name = "idTarjeta", referencedColumnName = "id") //en la tabla PostPaga voy a tener un campo
     //idTarjeta que hace referencia al campo id de la tabla Tarjeta
     //si no indicamos esta información el framework asigna nombres por defecto
-    private Tarjeta tarjeta; //eventualmente en el futuro un cliente podrá tener más de una tarjeta registrada
+    private org.tallerjava.moduloClientes.dominio.Tarjeta tarjeta; //eventualmente en el futuro un cliente podrá tener más de una tarjeta registrada
 
 }

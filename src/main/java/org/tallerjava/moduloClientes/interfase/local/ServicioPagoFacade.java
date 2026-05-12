@@ -1,8 +1,8 @@
-package org.tallerjava.moduloGestion.interfase.local;
+package org.tallerjava.moduloClientes.interfase.local;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
-import org.tallerjava.moduloGestion.aplicacion.ServicioGestion;
+import org.tallerjava.moduloClientes.aplicacion.ServicioGestion;
 
 /**
  * Si bien esta fachada es un pasamano, notese que su utilidad esta relacionada

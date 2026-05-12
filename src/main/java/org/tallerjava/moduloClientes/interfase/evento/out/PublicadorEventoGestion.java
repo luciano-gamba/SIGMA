@@ -1,11 +1,11 @@
-package org.tallerjava.moduloGestion.interfase.evento.out;
+package org.tallerjava.moduloClientes.interfase.evento.out;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.event.Event;
 import jakarta.inject.Inject;
-import org.tallerjava.moduloGestion.dominio.Vehiculo;
-import org.tallerjava.moduloGestion.interfase.remota.rest.VehiculoDTO;
-import org.tallerjava.moduloPeaje.interfase.evento.out.PeajeVehiculoNoEncontrado;
+import org.tallerjava.moduloClientes.dominio.Vehiculo;
+import org.tallerjava.moduloClientes.interfase.remota.rest.VehiculoDTO;
+import org.tallerjava.moduloPagos.interfase.evento.out.PeajeVehiculoNoEncontrado;
 
 @ApplicationScoped
 public class PublicadorEventoGestion {

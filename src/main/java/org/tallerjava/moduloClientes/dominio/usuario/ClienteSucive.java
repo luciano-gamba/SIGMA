@@ -1,4 +1,4 @@
-package org.tallerjava.moduloGestion.dominio.usuario;
+package org.tallerjava.moduloClientes.dominio.usuario;
 
 import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;

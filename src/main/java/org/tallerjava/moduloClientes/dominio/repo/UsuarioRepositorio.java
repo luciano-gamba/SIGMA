@@ -1,8 +1,8 @@
-package org.tallerjava.moduloGestion.dominio.repo;
+package org.tallerjava.moduloClientes.dominio.repo;
 
 import jakarta.enterprise.context.ApplicationScoped;
-import org.tallerjava.moduloGestion.dominio.Vehiculo;
-import org.tallerjava.moduloGestion.dominio.usuario.Usuario;
+import org.tallerjava.moduloClientes.dominio.Vehiculo;
+import org.tallerjava.moduloClientes.dominio.usuario.Usuario;
 
 
 public interface UsuarioRepositorio {

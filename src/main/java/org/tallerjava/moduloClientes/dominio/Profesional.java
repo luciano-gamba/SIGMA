@@ -14,6 +14,6 @@ import lombok.Data;
 public class Profesional extends Cliente {
 
     private Float porcentajeDescuento;
-    //private EnumTipoProfesional tipo;
+    private EnumTipoProfesional tipo;
 
 }

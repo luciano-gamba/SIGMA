@@ -1,11 +1,11 @@
-package org.tallerjava.moduloGestion.dominio;
+package org.tallerjava.moduloClientes.dominio;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.tallerjava.moduloGestion.dominio.usuario.ClienteTelepeaje;
-import org.tallerjava.moduloGestion.dominio.Nacionalidad;
+import org.tallerjava.moduloClientes.dominio.usuario.ClienteTelepeaje;
+import org.tallerjava.moduloClientes.dominio.Nacionalidad;
 
 /**
  * Observar como este objeto de dominio es diferente al Vehiculo que tenemos implementado
